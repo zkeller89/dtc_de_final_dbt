@@ -1,0 +1,23 @@
+dtc_de_final_dbt:
+  target: dev
+  outputs:
+
+    dev:
+      type: bigquery
+      method: oauth
+      project: eco-carver-355320
+      dataset: dev_zack
+      threads: 4
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      priority: interactive
+
+    prod:
+      type: bigquery
+      method: oauth
+      project: eco-carver-355320
+      dataset: dtc_de_final_dbt
+      threads: 4
+      job_execution_timeout_seconds: 300
+      job_retries: 1
