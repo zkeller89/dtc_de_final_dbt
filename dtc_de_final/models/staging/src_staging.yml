@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: dtc_final_project
+    tables:
+      - name: assessments_2015_all
+      - name: assessments_2015_common
+      - name: assessments_2016_all
+      - name: assessments_2016_common
+      - name: assessments_2017_all
+      - name: assessments_2017_common
+      - name: assessments_2018_all
+      - name: assessments_2018_common
+      - name: assessments_2019_all
+      - name: assessments_2019_common
+      - name: assessments_2020_all
+      - name: assessments_2020_common
+      - name: assessments_2021_all
+      - name: assessments_2021_common
+      - name: assessments_2022_all
+      - name: assessments_2022_common
