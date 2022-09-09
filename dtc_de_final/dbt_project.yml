@@ -22,6 +22,8 @@ models:
     # Config indicated by + and applies to all files under models/example/
     staging:
       +materialized: view
+    marts:
+      +materialized: table
 
 vars:
   assessment_years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
